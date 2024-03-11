@@ -24,7 +24,7 @@ jobs:
           target_repo_token: ${{ secrets.GITHUB_TOKEN }}
           upstream_sync_repo: apache/spark
           upstream_sync_branch: master
-          target_sync_branch: master
+          target_sync_branch: dev
           test_mode: false
 
       - name: Check for Failure
